@@ -1,10 +1,20 @@
-# Aerial-Scene-Understanding-Annotated-Dataset
-Aerial Scene Understanding Annotated Datasets
-This repo hosts the datasets used for Aerial Scene Understanding.
-This work has been done as a part of
-BIBTEX:
+# Aerial Scene Understanding Annotated Dataset
+Annotated datasets used for studying and understanding Aerial Scenes.
 
-@Inbook{Nadella2016,
+Contains two datasets
+* **AerialAnnotatedDataset** A set of 302 annotated images most of which are taken from a UAV.
+* **AnnotatedImageDataset** A set of 1277 annotated images taken from various datasets having the required labels.
+
+----
+## Use
+Can be cloned or downloaded directly from here.
+
+----
+This work has been done as a part of
+
+###### BIBTEX
+
+>@Inbook{Nadella2016,
 author="Nadella, Sandeep
 and Singh, Amarjot
 and Omkar, S. N.",
@@ -22,3 +32,7 @@ url="http://dx.doi.org/10.1007/978-3-319-46604-0_15"
 }
 
 Please consider citing the above publication when using this dataset
+
+----
+## License
+GNU LGPLv3 (see `LICENSE` file)
