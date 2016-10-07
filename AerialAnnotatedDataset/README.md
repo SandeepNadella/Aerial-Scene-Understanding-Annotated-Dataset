@@ -1,31 +1,34 @@
-AERIAL IMAGE DATASET
+# Aerial Image Dataset
+This dataset contains 302 annotated images most of which are captured from UAV.
 
-LABELS:
+----
+## Labels
 
-Region      Hex Code    Label
-Unknown: 	#000000		0
-Sky: 		#0000ff		1
-Grass: 		#00ff00		2
-Road: 		#ff00ff		3
-Tree: 		#008000		4
-Water: 		#00ffff		5
-Building: 	#ffff00		6
-Mountain: 	#996600		7
-Cars: 		#ff3300		8
-People: 	#ffffff		9
+|Region   |   Hex Code |   Label|
+|:--------|:-----------|:-------|
+|Unknown 	|#000000		|0|
+|Sky 		|#0000ff		|1|
+|Grass 		|#00ff00		|2|
+|Road 		|#ff00ff		|3|
+|Tree 		|#008000		|4|
+|Water 		|#00ffff		|5|
+|Building 	|#ffff00		|6|
+|Mountain 	|#996600		|7|
+|Cars 		|#ff3300		|8|
+|People 	|#ffffff		|9|
 
-Note: 
+-----
+
+## Note 
 1. In some images, the distinction between 'Grass' and 'Trees' is not very clear and hence they are combined and marked as 'Trees'.
 2. The marked color codes will be approx. to the above-shown color codes.
 3. Image label color codes might differ a bit for set 3 images.
 
-Disclaimer:
-Although every care has been taken in preparing the dataset, yet it may not be error free. No responsibility/liability will be taken for any inaccuracy that might have crept in.
-
+----
 This work has been done for 
-BIBTEX:
+###### BIBTEX
 
-@Inbook{Nadella2016,
+>@Inbook{Nadella2016,
 author="Nadella, Sandeep
 and Singh, Amarjot
 and Omkar, S. N.",
@@ -43,3 +46,7 @@ url="http://dx.doi.org/10.1007/978-3-319-46604-0_15"
 }
 
 Please consider citing the above publication when using this dataset
+
+----
+## Disclaimer
+Although every care has been taken in preparing the dataset, yet it may not be error free. No responsibility or liability will be taken for any inaccuracy that might have crept in.
